@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1f2937;
+}
+
+header div {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav {
+    display:flex;
+}
+
+header ul {
+    display: flex;
+    margin: auto;
+}
+
+header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li:first-of-type {
+    margin-left: 0;
+}
+
+header li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+header li a:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+header img {
+    max-width: 64px;
+}
+
+#hero {
+    background-color: #1f2937;
+}

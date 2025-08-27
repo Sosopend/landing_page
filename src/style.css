@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto';
 }
 
 header {
@@ -15,7 +16,7 @@ header div {
 }
 
 header nav {
-    display:flex;
+    display: flex;
 }
 
 header ul {
@@ -47,6 +48,43 @@ header img {
     max-width: 64px;
 }
 
-#hero {
+.hero {
     background-color: #1f2937;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.hero .content-img {
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero .content-img .content {
+    max-width: 675px;
+}
+
+.hero .content h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.hero .content p:first-of-type {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero .content-img img {
+    max-width: 675px;
+}
+
+#information img {
+    height: 128px;
+    width: 128px;
+}
+
+#information .content-illustration {
+    display: flex;
 }

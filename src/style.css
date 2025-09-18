@@ -80,6 +80,24 @@ header img {
     max-width: 675px;
 }
 
+#information {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+#information .content {
+    max-width: 1400px;
+}
+
+#information h2 {
+    color: #1f2937;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
 #information img {
     height: 128px;
     width: 128px;
@@ -87,4 +105,23 @@ header img {
 
 #information .content-illustration {
     display: flex;
+    justify-content: center;
+}
+
+#information .illustration {
+    margin-right: 48px;
+}
+
+#information .illustration:nth-last-of-type {
+    margin-right: 0px;
+}
+
+/* #information .illustration img {
+    margin-bottom: 10px;
+} */
+
+#information .illustration p {
+    text-align: center;
+    color: #1f2937;
+
 }

@@ -148,3 +148,62 @@ header img {
     font-weight: lighter;
     font-style: italic;
 }
+
+#action {
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+#action .blue-wall {
+    display: flex;
+    background-color: #3882f6 ;
+    color: white;
+    border-radius: 10px;
+    padding: 40px 80px 40px 80px;
+}
+
+#action .blue-wall .call {
+    margin-right: 98px;
+}
+
+#action .blue-wall .call p{
+    font-size: 18px;
+}
+
+#action .blue-wall .call p:first-of-type {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#action .blue-wall a {
+    display: flex;
+    border: solid 1px white;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+}
+
+footer .content {
+    max-width: 1400px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 40px 20px 40px;
+}
+
+footer .content p {
+    color: white;
+}

@@ -124,3 +124,27 @@ header img {
     text-align: center;
     color: #1f2937;
 }
+
+#inspiring-quote {
+    background-color: #e5e7eb ;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    display: flex;
+    justify-content: center;
+}
+
+#inspiring-quote .quote-content {
+    max-width: 1400px;
+}
+
+#inspiring-quote .quote-content .author {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#inspiring-quote .quote-content p {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}

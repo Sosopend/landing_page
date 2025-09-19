@@ -71,9 +71,30 @@ header img {
     font-weight: 900;
 }
 
+.hero .content p {
+    display: flex;
+
+}
+
 .hero .content p:first-of-type {
     font-size: 18px;
     color: #e5e7eb;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.hero .content a {
+    display: flex;
+    border: solid 1px white;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #3882f6;
 }
 
 .hero .content-img img {
